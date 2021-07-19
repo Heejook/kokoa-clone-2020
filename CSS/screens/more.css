@@ -1,0 +1,72 @@
+
+.user-component_icon i{
+    color: rgba(0, 0, 0, 0.829);
+  }
+
+.more-icons{
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+  .more-icons_icon span{
+      margin-top:15px;
+      font-size: 15px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.529);
+    
+  }
+
+.more-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-icons_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-icons_low{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.more-icons_icon2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-right: 20px;
+
+}
+
+.more-icons_icon2 span{
+    margin-top:15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.529);
+}
+
+.suggestion{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.829);
+    padding-top:30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.229);
+}
+
+.suggestion-icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.suggestion-icons span{
+    padding-right: 20px;
+}

@@ -29,3 +29,7 @@
 .status-bar__column .fa-battery-three-quarters {
   margin: 0px 5px;
 }
+
+.status-bar__column_ioncs{
+  margin-right: 10px;
+}
