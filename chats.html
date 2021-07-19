@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - KoKoa clone</title>
+    <title>chats - KoKoa clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,54 +26,32 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header_title">Friends</h1>
+      <h1 class="screen-header_title">Chat</h1>
       <div class="header_icons">
+        <span><i class="fas fa-comment-medical fa-2x"></i></span>
         <span><i class="fas fa-search fa-2x"></i></span>
         <span><i class="fas fa-music fa-2x"></i></span>
         <span><i class="fas fa-cog fa-2x"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friends' names Display
-      <i class="fas fa-chevron-right fa-sm"></i>
-    </a>
-    <main class="friend-screen">
+  
+    <main class="main-screens">
       <div class="user-component">
         <div class="user-component_column">
           <img
-            src="https://avatars.githubusercontent.com/u/87510790?s=400&u=bac9794062584d8e6cb9b6f639d21ee695f375d3&v=4"
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA4MjhfMjkg%2FMDAxNTM1NDI0MTY1MjQw.PEwTIlZqSzyWzikY3NwQa3WSG8Ws2jhAwX6qfkH6oo4g.uKoPxqR5De8tPIelJ95Zo9t2qcM0eObieATpKPlkdnsg.PNG.dnduf75%2F%25B7%25CE%25B0%25ED%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5-%25C4%25AB%25C4%25AB%25BF%25C0%25C5%25E5%25B7%25CE%25B0%25ED2.png&type=sc960_832"
             class="user-component_avatar user-component_avatar--xl"
           />
           <div class="user-component_text">
             <h4 class="user-component_title">Lee Yeong Rok</h4>
-            <!--<h6 class="user-component_subtitle">오백맨 소백맨</h6>-->
+            <h6 class="user-component_subtitle">Please check my kokoa Account info</h6>
           </div>
         </div>
-        <div class="user-component_column"></div>
-      </div>
-      <div class="friends-screen_chennel">
-        <div class="friend-screen_chennel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component_column">
-            <img
-              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA4MjhfMjkg%2FMDAxNTM1NDI0MTY1MjQw.PEwTIlZqSzyWzikY3NwQa3WSG8Ws2jhAwX6qfkH6oo4g.uKoPxqR5De8tPIelJ95Zo9t2qcM0eObieATpKPlkdnsg.PNG.dnduf75%2F%25B7%25CE%25B0%25ED%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5-%25C4%25AB%25C4%25AB%25BF%25C0%25C5%25E5%25B7%25CE%25B0%25ED2.png&type=sc960_832"
-              class="user-component_avatar user-component_avatar--sm"
-            />
-            <div class="user-component_text">
-              <h4 class="user-component_title user-component_title--not-bold">
-                chennel
-              </h4>
-              <!--<h6 class="user-component_subtitle">오백맨 소백맨</h6>-->
-            </div>
-          </div>
-          <div class="user-component_column">
-            <span>5<i class="fas fa-chevron-right"></i></span>
-          </div>
+        <div class="user-component_column">
+          <span class="user-component_time">22:22</span>
+          <div class="badge">1</div>
+
         </div>
       </div>
     </main>
@@ -82,14 +60,14 @@
       <ul class="nav_list">
         <li class="nav_btn">
           <a class="nav_link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
 
         <li class="nav_btn">
           <a class="nav_link" href="chats.html">
             <span class="nav_notification badge">223</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
 
